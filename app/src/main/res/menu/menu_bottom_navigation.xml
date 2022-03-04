@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Termin"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_termin"
+        android:title="@string/Page1"
+        />
+    <item
+        android:id="@+id/News"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_news"
+        android:title="@string/Page2"/>
+
+</menu>

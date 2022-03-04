@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginTop="8dp"
+    android:backgroundTint="@color/White"
+    app:cardBackgroundColor="@color/White"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_add_alarm_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="Line 1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/ImageView"
+            android:layout_toStartOf="@id/image_delete" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/Black"
+            android:layout_toEndOf="@+id/ImageView"
+            android:layout_toStartOf="@id/image_delete"
+            android:text="Line 2"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/image_delete"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_delete"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

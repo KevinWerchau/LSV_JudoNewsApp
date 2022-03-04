@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable-v24/circle.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable-v24/ic_baseline_add_alarm_24.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable-v24/ic_baseline_help_outline_24.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/button_background_selector.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/button_text_selector.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/button_textcolor_selctor.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_actionbartext.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_button.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_button_disabled.xml" value="0.37864583333333335" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_calendarview.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_edittext.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_stroke.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/example_umrandung.xml" value="0.37864583333333335" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_meisterschaft_grafik.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_nwdk_grafik.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_nwjv_grafik.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_turniere_grafik.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_turniere_schrift.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/drawable/ic_veranstaltung_grafik.xml" value="0.3828125" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_clicked_termin.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_einstellungen.xml" value="0.2246376811594203" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_farbhilfe.xml" value="0.5" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_main_version_alertdialog.xml" value="0.5" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_neues_event.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_newsform.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_newsform2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/activity_terminform.xml" value="0.5" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/example_item.xml" value="0.2015625" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/example_termin_activity.xml" value="0.1" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/fragment_news.xml" value="0.33" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/fragment_termin.xml" value="0.33" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/mainactivity_dialog_spinnertextview.xml" value="0.1" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/news_example.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/layout/termin_example.xml" value="0.75" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/menu/dropdown_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13802083333333334" />
+        <entry key="..\:/Projekte/LSV_JudoMVVM/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml" value="0.13802083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

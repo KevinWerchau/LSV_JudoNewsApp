@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Lsv_Judo</string>
+    <string name="Page1">Termine</string>
+    <string name="Page2">News</string>
+    <string name="Page3">Hallen</string>
+    <string name="KalenderFragment">Kalender</string>
+    <string name="Termine14Tage">Termine in den nächsten 14 Tagen:</string>
+    <string name="NewEvent">Neuer Termin</string>
+    <string name="Hinweis_Feld1">Terminbezeichnung</string>
+    <string name="Hinweis_Feld2">Datum</string>
+    <string name="Hinweis_Feld3">Notizen</string>
+    <string name="Hinweis_Feld4" />
+    <string name="Hinweis_News_Feld1">Titel der Benachrichtigung</string>
+    <string name="Hinweis_News_Feld2">Beschreibung</string>
+    <string name="Event_speichern">Event speichern</string>
+    <string name="NewDate">Datum wählen</string>
+    <string name="NewColor">Farbe wählen</string>
+    <string name="Details_Viewholder">Details</string>
+    <string name="EventsOfMonth">Termine in diesem Monat:</string>
+    <string name="login">Login</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="benutzername">Benutzername:</string>
+    <string name="anmelden">Anmelden</string>
+    <string name="passwort">Passwort:</string>
+    <string name="news_benachrichtigungen">News Benachrichtigungen</string>
+    <string name="termine_benachrichtigungen">Termine Benachrichtigungen</string>
+    <string name="updaten">Updaten</string>
+    <string name="ausloggen">Ausloggen</string>
+    <string name="news_liste_leeren">News Liste leeren</string>
+    <string name="termin_liste_leeren">Termin Liste leeren</string>
+    <string name="titel_beispiel">Titel Beispiel</string>
+    <string name="color_termin">Color_Termin</string>
+    <string name="fabkalender">TODO</string>
+    <string name="news_hinzuf_gen">News Hinzufügen</string>
+    <string name="new_version_textview">Es gibt eine neuere Version bitte aktualisieren</string>
+    <array name="Farbkategorien">
+        <item>
+            <u>Kategorie wählen</u>
+        </item>
+        <item>Turniere - Lila</item>
+        <item>Meisterschaft - Gelb</item>
+        <item>NWDK - Grün</item>
+        <item>NWJV - Rot</item>
+        <item>DJB - Schwarz</item>
+        <item>Lehrgänge - Türkis</item>
+        <item>Vorstand - Blau</item>
+        <item>Veranstaltungen - Orange</item>
+    </array>
+</resources>

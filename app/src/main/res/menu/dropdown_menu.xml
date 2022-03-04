@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Login"
+        android:title="@string/login"
+        app:showAsAction = "never"
+        />
+    <item
+        android:id="@+id/Einstellungen"
+        android:title="@string/einstellungen"
+        app:showAsAction = "never"
+        />
+    <item
+        android:id="@+id/Ausloggen"
+        android:title="@string/ausloggen"
+        app:showAsAction = "never"
+        />
+</menu>

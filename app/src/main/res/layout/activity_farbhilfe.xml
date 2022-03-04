@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVTurniere_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_turniere_grafik"
+        android:contentDescription="Turniere_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVTurniere_farbhilfe_Text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_turniere_schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVMeisterschaften_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_meisterschaft_grafik"
+        android:contentDescription="Meisterschaften_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTurniere_farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVMeisterschaften_farbhilfe_Text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_meisterschaft_schrift"
+            android:contentDescription="Meisteerschaften_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVNWDK_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_nwdk_grafik"
+        android:contentDescription="NWDK_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVMeisterschaften_farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVNWDK_farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_nwdk_schrift"
+            android:contentDescription="NWDK_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVNWJV_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_nwjv_grafik"
+        android:contentDescription="NWJV_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVNWDK_farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVNWJV_farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_nwjv_schrift"
+            android:contentDescription="NWJV_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVDJB_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_djb_grafik"
+        android:contentDescription="DJB_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVNWJV_farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVDJB_farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_djb_schrift"
+            android:contentDescription="DJB_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVLehrgang_Farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_lehrgang_grafik"
+        android:contentDescription="Lehrgang_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVDJB_farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVLehrgang_Farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_lehrgang_schrift"
+            android:contentDescription="Lehrgang_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVVorstand_Farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_vorstand_grafik"
+        android:contentDescription="Lehrgang_Farbe"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVLehrgang_Farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVVorstand_Farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_vorstand_schrift"
+            android:contentDescription="Lehrgang_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVVeranstaltungen_farbhilfe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_veranstaltung_grafik"
+        android:contentDescription="Lehrgang_Farbe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVVorstand_Farbhilfe"
+        app:layout_constraintWidth_percent="0.8">
+
+        <TextView
+            android:id="@+id/TVVeranstaltungen_farbhilfe_Schrift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_veranstaltung_schrift"
+            android:contentDescription="Lehrgang_Schrift"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
